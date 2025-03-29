@@ -1,29 +1,33 @@
-# lCaSe
+# lcase
 
-lcAse is a siMple cOmmAnd line tool that lOwerCases The GivEN file(s).
-i MaDe thIs bEcause i like to lOwerCase my reAdme aNd other FIles, but i doNt wAnnA to do It MANualLy. 
+lcase is a simple command line tool that lowercases the given file(s).
+i made this because i like to lowercase my readme and other files, but i dont wanna to do it manually. 
 
-## Usage
+## usage
 
 ```bash
-lcAse fiLe1.TxT file2.mD fiLe3.py ...
+lcase file1.txt file2.md file3.py ...
 ```
 
-OuTpUt
+output
 ```
 lowercased all (3) file(s)
 ```
 
-## InsTallaTion
+## installation
 
-- rUn `go insTALL github.com/dragSbruH/lcase`
-- or if yOu DoNT havE `gO`, See [RELEases](https://github.com/dragSbruH/lcase/releAses)
+- run `go install github.com/dragsbruh/lcase`
+- or if you dont have `go`, see [releases](https://github.com/dragsbruh/lcase/releases)
 
-## EXamPle
+## example
 
-thiS reAdme is a EXamPle of lCaSe. See the FiRst ComMit.
+this readme is a example of lcase. see the first commit.
 
-## kNoWn isSueS
+or if you want to see one live
 
-- after LcAsEing the files, a traIling newLine is added to the end of file (if NoT already there)
-- its WrITTen in GolanG, so the SoUrCe coDe is FoRced to Have UPPERCASE letterS
+![lcase demo](assets/demo.gif)
+
+## known issues
+
+- after lcaseing the files, a trailing newline is added to the end of file (if not already there)
+- its written in golang, so the source code is forced to have uppercase letters
